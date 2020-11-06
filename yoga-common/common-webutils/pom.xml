@@ -14,6 +14,7 @@
             <artifactId>commons-email</artifactId>
             <version>1.5</version>
         </dependency>
+
     </dependencies>
 
     <artifactId>common-webutils</artifactId>
