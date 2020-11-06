@@ -1,10 +1,10 @@
-package com.woniu;
+package utils;
 
 import org.apache.commons.mail.HtmlEmail;
 
 import java.util.Random;
 
-public class emailutil {
+public class EmailUtil {
     public static String sendCode(String emailAddress) throws Exception{
         HtmlEmail email=new HtmlEmail();//创建一个HtmlEmail实例对象
         email.setHostName("smtp.163.com");//邮箱的SMTP服务器，一般123邮箱的是smtp.123.com,qq邮箱为smtp.qq.com
