@@ -11,15 +11,17 @@
 
 
     <artifactId>yoga-gateway</artifactId>
-    <version>1.0.0</version>
+
     <dependencies>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>${nacos-version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
+            <version>${gateway-version}</version>
         </dependency>
     </dependencies>
 

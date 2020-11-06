@@ -12,6 +12,8 @@
         <Spring.cloud.alibaba.version>2.2.3.RELEASE</Spring.cloud.alibaba.version>
         <Spring.cloud.version>Hoxton.SR8</Spring.cloud.version>
         <java.version>1.8</java.version>
+        <nacos-version>2.2.3.RELEASE</nacos-version>
+        <gateway-version>2.2.5.RELEASE</gateway-version>
     </properties>
 
     <dependencyManagement>

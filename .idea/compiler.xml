@@ -13,14 +13,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common-client (1)" target="1.5" />
-      <module name="common-utils" target="1.5" />
-      <module name="common-webutils" target="1.5" />
+      <module name="common-utils" target="1.8" />
+      <module name="common-webutils" target="1.8" />
       <module name="common-webutils (1)" target="1.5" />
       <module name="gateway" target="1.8" />
-      <module name="yoga-common" target="1.5" />
+      <module name="yoga-common" target="1.8" />
       <module name="yoga-common (1)" target="1.5" />
-      <module name="yoga-gateway" target="1.5" />
-      <module name="yoga-parent" target="1.5" />
+      <module name="yoga-gateway" target="1.8" />
+      <module name="yoga-parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
