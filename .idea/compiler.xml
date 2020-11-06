@@ -6,11 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common-utils" />
-        <module name="yoga-venue" />
         <module name="common-webutils" />
         <module name="yoga-gateway" />
         <module name="common-client" />
+        <module name="common-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,7 +23,6 @@
       <module name="yoga-common (1)" target="1.5" />
       <module name="yoga-gateway" target="1.8" />
       <module name="yoga-parent" target="1.8" />
-      <module name="yoga-venue" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
