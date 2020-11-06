@@ -2,6 +2,8 @@ package domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -14,6 +16,8 @@ import java.time.LocalDateTime;
  * @author fei
  * @since 2020-11-06
  */
+@Data
+@EqualsAndHashCode(callSuper = false)
 public class TCoach implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -54,162 +58,4 @@ public class TCoach implements Serializable {
     private String tCoachSect;
 
 
-    public Integer gettCoachId() {
-        return tCoachId;
-    }
-
-    public void settCoachId(Integer tCoachId) {
-        this.tCoachId = tCoachId;
-    }
-
-    public String gettCoachName() {
-        return tCoachName;
-    }
-
-    public void settCoachName(String tCoachName) {
-        this.tCoachName = tCoachName;
-    }
-
-    public String gettCoachPassword() {
-        return tCoachPassword;
-    }
-
-    public void settCoachPassword(String tCoachPassword) {
-        this.tCoachPassword = tCoachPassword;
-    }
-
-    public String gettCoachTel() {
-        return tCoachTel;
-    }
-
-    public void settCoachTel(String tCoachTel) {
-        this.tCoachTel = tCoachTel;
-    }
-
-    public String gettCoachMail() {
-        return tCoachMail;
-    }
-
-    public void settCoachMail(String tCoachMail) {
-        this.tCoachMail = tCoachMail;
-    }
-
-    public String gettCoachOpenid() {
-        return tCoachOpenid;
-    }
-
-    public void settCoachOpenid(String tCoachOpenid) {
-        this.tCoachOpenid = tCoachOpenid;
-    }
-
-    public String gettCoachImg() {
-        return tCoachImg;
-    }
-
-    public void settCoachImg(String tCoachImg) {
-        this.tCoachImg = tCoachImg;
-    }
-
-    public Integer gettCoachSex() {
-        return tCoachSex;
-    }
-
-    public void settCoachSex(Integer tCoachSex) {
-        this.tCoachSex = tCoachSex;
-    }
-
-    public Integer gettCoachAge() {
-        return tCoachAge;
-    }
-
-    public void settCoachAge(Integer tCoachAge) {
-        this.tCoachAge = tCoachAge;
-    }
-
-    public String gettCoachAddress() {
-        return tCoachAddress;
-    }
-
-    public void settCoachAddress(String tCoachAddress) {
-        this.tCoachAddress = tCoachAddress;
-    }
-
-    public Integer gettCoachInfoLevel() {
-        return tCoachInfoLevel;
-    }
-
-    public void settCoachInfoLevel(Integer tCoachInfoLevel) {
-        this.tCoachInfoLevel = tCoachInfoLevel;
-    }
-
-    public Double gettCoachBalance() {
-        return tCoachBalance;
-    }
-
-    public void settCoachBalance(Double tCoachBalance) {
-        this.tCoachBalance = tCoachBalance;
-    }
-
-    public Integer gettCoachStatus() {
-        return tCoachStatus;
-    }
-
-    public void settCoachStatus(Integer tCoachStatus) {
-        this.tCoachStatus = tCoachStatus;
-    }
-
-    public Integer gettCoachTeachStatus() {
-        return tCoachTeachStatus;
-    }
-
-    public void settCoachTeachStatus(Integer tCoachTeachStatus) {
-        this.tCoachTeachStatus = tCoachTeachStatus;
-    }
-
-    public LocalDateTime gettCoachCreateTime() {
-        return tCoachCreateTime;
-    }
-
-    public void settCoachCreateTime(LocalDateTime tCoachCreateTime) {
-        this.tCoachCreateTime = tCoachCreateTime;
-    }
-
-    public String gettCoachSpare() {
-        return tCoachSpare;
-    }
-
-    public void settCoachSpare(String tCoachSpare) {
-        this.tCoachSpare = tCoachSpare;
-    }
-
-    public String gettCoachSect() {
-        return tCoachSect;
-    }
-
-    public void settCoachSect(String tCoachSect) {
-        this.tCoachSect = tCoachSect;
-    }
-
-    @Override
-    public String toString() {
-        return "TCoach{" +
-        "tCoachId=" + tCoachId +
-        ", tCoachName=" + tCoachName +
-        ", tCoachPassword=" + tCoachPassword +
-        ", tCoachTel=" + tCoachTel +
-        ", tCoachMail=" + tCoachMail +
-        ", tCoachOpenid=" + tCoachOpenid +
-        ", tCoachImg=" + tCoachImg +
-        ", tCoachSex=" + tCoachSex +
-        ", tCoachAge=" + tCoachAge +
-        ", tCoachAddress=" + tCoachAddress +
-        ", tCoachInfoLevel=" + tCoachInfoLevel +
-        ", tCoachBalance=" + tCoachBalance +
-        ", tCoachStatus=" + tCoachStatus +
-        ", tCoachTeachStatus=" + tCoachTeachStatus +
-        ", tCoachCreateTime=" + tCoachCreateTime +
-        ", tCoachSpare=" + tCoachSpare +
-        ", tCoachSect=" + tCoachSect +
-        "}";
-    }
 }

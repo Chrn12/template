@@ -2,6 +2,8 @@ package domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 
@@ -13,6 +15,8 @@ import java.io.Serializable;
  * @author fei
  * @since 2020-11-06
  */
+@Data
+@EqualsAndHashCode(callSuper = false)
 public class TCourse implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -39,72 +43,4 @@ public class TCourse implements Serializable {
     private Integer tVenueId;
 
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public Integer gettCourseDay() {
-        return tCourseDay;
-    }
-
-    public void settCourseDay(Integer tCourseDay) {
-        this.tCourseDay = tCourseDay;
-    }
-
-    public Integer gettCourseTime() {
-        return tCourseTime;
-    }
-
-    public void settCourseTime(Integer tCourseTime) {
-        this.tCourseTime = tCourseTime;
-    }
-
-    public Integer gettCourseCid() {
-        return tCourseCid;
-    }
-
-    public void settCourseCid(Integer tCourseCid) {
-        this.tCourseCid = tCourseCid;
-    }
-
-    public String gettCourseCname() {
-        return tCourseCname;
-    }
-
-    public void settCourseCname(String tCourseCname) {
-        this.tCourseCname = tCourseCname;
-    }
-
-    public String gettSpare() {
-        return tSpare;
-    }
-
-    public void settSpare(String tSpare) {
-        this.tSpare = tSpare;
-    }
-
-    public Integer gettVenueId() {
-        return tVenueId;
-    }
-
-    public void settVenueId(Integer tVenueId) {
-        this.tVenueId = tVenueId;
-    }
-
-    @Override
-    public String toString() {
-        return "TCourse{" +
-        "id=" + id +
-        ", tCourseDay=" + tCourseDay +
-        ", tCourseTime=" + tCourseTime +
-        ", tCourseCid=" + tCourseCid +
-        ", tCourseCname=" + tCourseCname +
-        ", tSpare=" + tSpare +
-        ", tVenueId=" + tVenueId +
-        "}";
-    }
 }

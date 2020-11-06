@@ -2,6 +2,8 @@ package domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 
@@ -13,6 +15,8 @@ import java.io.Serializable;
  * @author fei
  * @since 2020-11-06
  */
+@Data
+@EqualsAndHashCode(callSuper = false)
 public class TStudentConcern implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -31,63 +35,4 @@ public class TStudentConcern implements Serializable {
     private String tSpare;
 
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public Integer getSid() {
-        return sid;
-    }
-
-    public void setSid(Integer sid) {
-        this.sid = sid;
-    }
-
-    public String gettCidList() {
-        return tCidList;
-    }
-
-    public void settCidList(String tCidList) {
-        this.tCidList = tCidList;
-    }
-
-    public String gettVidList() {
-        return tVidList;
-    }
-
-    public void settVidList(String tVidList) {
-        this.tVidList = tVidList;
-    }
-
-    public String gettSidList() {
-        return tSidList;
-    }
-
-    public void settSidList(String tSidList) {
-        this.tSidList = tSidList;
-    }
-
-    public String gettSpare() {
-        return tSpare;
-    }
-
-    public void settSpare(String tSpare) {
-        this.tSpare = tSpare;
-    }
-
-    @Override
-    public String toString() {
-        return "TStudentConcern{" +
-        "id=" + id +
-        ", sid=" + sid +
-        ", tCidList=" + tCidList +
-        ", tVidList=" + tVidList +
-        ", tSidList=" + tSidList +
-        ", tSpare=" + tSpare +
-        "}";
-    }
 }

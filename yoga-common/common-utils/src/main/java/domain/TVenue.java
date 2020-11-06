@@ -2,6 +2,8 @@ package domain;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -14,6 +16,8 @@ import java.time.LocalDateTime;
  * @author fei
  * @since 2020-11-06
  */
+@Data
+@EqualsAndHashCode(callSuper = false)
 public class TVenue implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -46,126 +50,4 @@ public class TVenue implements Serializable {
     private String tVenueSpare;
 
 
-    public Integer gettVenueId() {
-        return tVenueId;
-    }
-
-    public void settVenueId(Integer tVenueId) {
-        this.tVenueId = tVenueId;
-    }
-
-    public String gettVenueName() {
-        return tVenueName;
-    }
-
-    public void settVenueName(String tVenueName) {
-        this.tVenueName = tVenueName;
-    }
-
-    public String gettVenuePassword() {
-        return tVenuePassword;
-    }
-
-    public void settVenuePassword(String tVenuePassword) {
-        this.tVenuePassword = tVenuePassword;
-    }
-
-    public String gettVenueTel() {
-        return tVenueTel;
-    }
-
-    public void settVenueTel(String tVenueTel) {
-        this.tVenueTel = tVenueTel;
-    }
-
-    public String gettVenueMail() {
-        return tVenueMail;
-    }
-
-    public void settVenueMail(String tVenueMail) {
-        this.tVenueMail = tVenueMail;
-    }
-
-    public String gettVenueOpenid() {
-        return tVenueOpenid;
-    }
-
-    public void settVenueOpenid(String tVenueOpenid) {
-        this.tVenueOpenid = tVenueOpenid;
-    }
-
-    public String gettVenueImg() {
-        return tVenueImg;
-    }
-
-    public void settVenueImg(String tVenueImg) {
-        this.tVenueImg = tVenueImg;
-    }
-
-    public String gettVenueAddress() {
-        return tVenueAddress;
-    }
-
-    public void settVenueAddress(String tVenueAddress) {
-        this.tVenueAddress = tVenueAddress;
-    }
-
-    public String gettVenueDescribe() {
-        return tVenueDescribe;
-    }
-
-    public void settVenueDescribe(String tVenueDescribe) {
-        this.tVenueDescribe = tVenueDescribe;
-    }
-
-    public Double gettVenueBalance() {
-        return tVenueBalance;
-    }
-
-    public void settVenueBalance(Double tVenueBalance) {
-        this.tVenueBalance = tVenueBalance;
-    }
-
-    public Integer gettVenueStatus() {
-        return tVenueStatus;
-    }
-
-    public void settVenueStatus(Integer tVenueStatus) {
-        this.tVenueStatus = tVenueStatus;
-    }
-
-    public LocalDateTime gettVenueCreateTime() {
-        return tVenueCreateTime;
-    }
-
-    public void settVenueCreateTime(LocalDateTime tVenueCreateTime) {
-        this.tVenueCreateTime = tVenueCreateTime;
-    }
-
-    public String gettVenueSpare() {
-        return tVenueSpare;
-    }
-
-    public void settVenueSpare(String tVenueSpare) {
-        this.tVenueSpare = tVenueSpare;
-    }
-
-    @Override
-    public String toString() {
-        return "TVenue{" +
-        "tVenueId=" + tVenueId +
-        ", tVenueName=" + tVenueName +
-        ", tVenuePassword=" + tVenuePassword +
-        ", tVenueTel=" + tVenueTel +
-        ", tVenueMail=" + tVenueMail +
-        ", tVenueOpenid=" + tVenueOpenid +
-        ", tVenueImg=" + tVenueImg +
-        ", tVenueAddress=" + tVenueAddress +
-        ", tVenueDescribe=" + tVenueDescribe +
-        ", tVenueBalance=" + tVenueBalance +
-        ", tVenueStatus=" + tVenueStatus +
-        ", tVenueCreateTime=" + tVenueCreateTime +
-        ", tVenueSpare=" + tVenueSpare +
-        "}";
-    }
 }
