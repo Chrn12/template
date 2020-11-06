@@ -44,9 +44,4 @@ public class JwtUtil {
         Key key = Keys.hmacShaKeyFor(sect.getBytes());
         return Jwts.parserBuilder().setSigningKey(key).build().parseClaimsJws(token).getBody();
     }
-
-    public static void main(String[] args) throws Exception {
-        Claims claims = parseToken("eyJhbGciOiJIUzUxMiJ9.eyJwaG9uZSI6IjExMSIsIm5hbWUiOiIxMTEiLCJleHAiOjE2MDM3MjQ1NTh9.3Ks4N9uJAD4oU-4kaRT0z0QCH8KTo4Uy34bsFwu_dnX_bQ1dPxyacZ9JrfYNqJV_YtEVx49tnGoYlJtAJz6IsQ");
-        System.out.println(claims);
-    }
 }
