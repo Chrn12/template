@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <modules>
         <module>common-webutils</module>
-        <module>common-client</module>
+        <module>common-utils</module>
     </modules>
     <parent>
         <artifactId>yoga-parent</artifactId>
