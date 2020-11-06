@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public class OssUtils {
     //上传 返回url
-    public String upLoad(File file){
+    public static String upLoad(File file){
         UUID uuid = UUID.randomUUID();
         // Endpoint以杭州为例，其它Region请按实际情况填写。
         String endpoint = "oss-cn-chengdu.aliyuncs.com";
