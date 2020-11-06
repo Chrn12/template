@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yoga-gateway" />
-        <module name="common-utils" />
         <module name="common-webutils" />
+        <module name="yoga-gateway" />
+        <module name="common-client" />
+        <module name="common-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-client" target="1.5" />
       <module name="common-client (1)" target="1.5" />
       <module name="common-utils" target="1.8" />
       <module name="common-webutils" target="1.8" />
