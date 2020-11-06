@@ -5,5 +5,9 @@
     <file url="file://$PROJECT_DIR$/yoga-common/common-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yoga-common/common-webutils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yoga-common/common-webutils/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yoga-gateway/common-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yoga-gateway/common-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yoga-gateway/common-webutils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yoga-gateway/common-webutils/src/main/resources" charset="UTF-8" />
   </component>
 </project>

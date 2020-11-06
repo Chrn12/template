@@ -3,17 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <modules>
-        <module>common-webutils</module>
-        <module>common-client</module>
-    </modules>
     <parent>
         <artifactId>yoga-parent</artifactId>
         <groupId>com.woniuxy.yoga</groupId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>yoga-common</artifactId>
+
+
+    <artifactId>yoga-gateway</artifactId>
     <version>1.0.0</version>
-    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>
