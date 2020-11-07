@@ -14,11 +14,7 @@ spring:
     date-format: yyyy-MM-dd
     default-property-inclusion: NON_NULL
   application:
-    name: yoga-venue
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
+    name: yoga-venue-server
 #    sentinel:
 #      transport:
 #        dashboard: localhost:8080

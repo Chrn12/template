@@ -9,19 +9,14 @@
         <module name="common-utils" />
         <module name="yoga-venue" />
         <module name="common-webutils" />
-        <module name="yoga-gateway" />
         <module name="common-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common-client" target="1.5" />
-      <module name="common-client (1)" target="1.5" />
       <module name="common-utils" target="1.8" />
       <module name="common-webutils" target="1.8" />
-      <module name="common-webutils (1)" target="1.5" />
       <module name="gateway" target="1.8" />
       <module name="yoga-common" target="1.8" />
-      <module name="yoga-common (1)" target="1.5" />
       <module name="yoga-gateway" target="1.8" />
       <module name="yoga-parent" target="1.8" />
       <module name="yoga-venue" target="1.8" />
@@ -32,6 +27,7 @@
       <module name="common-utils" options="-parameters" />
       <module name="common-webutils" options="-parameters" />
       <module name="yoga-gateway" options="-parameters" />
+      <module name="yoga-parent" options="-parameters" />
       <module name="yoga-venue" options="-parameters" />
     </option>
   </component>

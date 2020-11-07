@@ -6,7 +6,6 @@
     <modules>
         <module>common-webutils</module>
         <module>common-utils</module>
-        <module>common-utils</module>
     </modules>
     <parent>
         <artifactId>yoga-parent</artifactId>
@@ -16,5 +15,7 @@
     <artifactId>yoga-common</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
+    <dependencies>
 
+    </dependencies>
 </project>

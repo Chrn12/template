@@ -6,8 +6,9 @@
         <option value="$PROJECT_DIR$/yoga-parent/pom.xml" />
         <option value="$PROJECT_DIR$/yoga-common/pom.xml" />
         <option value="$PROJECT_DIR$/gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/yoga-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/yoga-venue/pom.xml" />
+        <option value="$PROJECT_DIR$/yoga-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/yoga-common/common-utils/pom.xml" />
       </list>
     </option>
   </component>

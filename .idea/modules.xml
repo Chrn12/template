@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/yoga-common/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/yoga-common/common-utils/common-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/yoga-common/common-webutils/common-webutils.iml" filepath="$PROJECT_DIR$/yoga-common/common-webutils/common-webutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/yoga-common/yoga-common.iml" filepath="$PROJECT_DIR$/yoga-common/yoga-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yoga-gateway/yoga-gateway.iml" filepath="$PROJECT_DIR$/yoga-gateway/yoga-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/yoga-parent/yoga-parent.iml" filepath="$PROJECT_DIR$/yoga-parent/yoga-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/yoga-venue/yoga-venue.iml" filepath="$PROJECT_DIR$/yoga-venue/yoga-venue.iml" />
     </modules>
