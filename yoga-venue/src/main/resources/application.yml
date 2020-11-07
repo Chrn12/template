@@ -19,19 +19,19 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-    sentinel:
-      transport:
-        dashboard: localhost:8080                 
-mybatis-plus:
-  type-aliases-package: com.woniu.domain
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-logging:
-  level:
-    com.woniu.client: debug
-feign:
-  client:
-    config:
-      # feign全局日志级别
-      default:
-        loggerLevel: full         
+#    sentinel:
+#      transport:
+#        dashboard: localhost:8080
+#mybatis-plus:
+#  type-aliases-package: com.woniu.domain
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#logging:
+#  level:
+#    com.woniu.client: debug
+#feign:
+#  client:
+#    config:
+#      # feign全局日志级别
+#      default:
+#        loggerLevel: full
