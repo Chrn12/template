@@ -1,0 +1,37 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_product?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 
+    type: com.alibaba.druid.pool.DruidDataSource
+  mvc:
+    format:
+      date: yyyy-MM-dd    
+  jackson:
+    date-format: yyyy-MM-dd
+    default-property-inclusion: NON_NULL
+  application:
+    name: yoga-venue
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+#    sentinel:
+#      transport:
+#        dashboard: localhost:8080
+#mybatis-plus:
+#  type-aliases-package: com.woniu.domain
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#logging:
+#  level:
+#    com.woniu.client: debug
+#feign:
+#  client:
+#    config:
+#      # feign全局日志级别
+#      default:
+#        loggerLevel: full
